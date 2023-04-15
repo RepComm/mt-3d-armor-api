@@ -1,0 +1,29 @@
+{
+  "name": "@repcomm/mt-3d-armor-api",
+  "main": "./mod.d.ts",
+  "version": "1.0.1",
+  "description": "minetest typescript definitions for 3d-armor mod",
+  "scripts": {
+    "pub": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repcomm/mt-3d-armor-api.git"
+  },
+  "keywords": [
+    "minetest",
+    "typescript",
+    "api"
+  ],
+  "author": "Jon Crowder",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/repcomm/mt-3d-armor-api/issues"
+  },
+  "homepage": "https://github.com/repcomm/mt-3d-armor-api#readme",
+  "devDependencies": {
+    "@repcomm/mt-api": "^1.0.1",
+    "lua-types": "^2.13.1",
+    "typescript-to-lua": "^1.14.0"
+  }
+}
